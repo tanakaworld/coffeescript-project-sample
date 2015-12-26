@@ -1,0 +1,23 @@
+{
+  "name": "coffeescript-project-sample",
+  "version": "1.0.0",
+  "description": "Sample project for CoffeeScript, grunt, karma, jasmine etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanakaworld/coffeescript-project-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanakaworld/coffeescript-project-sample/issues"
+  },
+  "homepage": "https://github.com/tanakaworld/coffeescript-project-sample#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
