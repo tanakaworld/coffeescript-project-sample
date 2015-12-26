@@ -16,8 +16,13 @@ module.exports = (grunt)->
           dest: 'dist/'
           ext: '.js'
         ]
+    karma:
+      unit:
+        configFile: 'karma.conf.coffee'
 
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-watch'
+  grunt.loadNpmTasks 'grunt-karma'
 
   grunt.registerTask 'default', ['coffee', 'watch']
+  grunt.registerTask 'spec', ['karma']
